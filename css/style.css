@@ -1,3 +1,31 @@
+/*
+Best Practices
+id - #karmaLogo, #navigationBar
+class - .centering, .background-image
+
+1em - body { font-size: 16px; }
+h1 {
+    1.5em; //24px - 18px
+}
+h1 p {
+    1em; //24px - 18px
+}
+
+@media screen and (max-width: 480px){
+    body {
+        font-size: 12px;
+    }
+}
+
+h1 {
+    1.5rem; //24px - 18px
+}
+h1 p {
+    1rem; //16px - 12px
+}
+*/
+
+
 #Karma-Logo {
 	padding: 10px 0px 10px 150px;
 }
@@ -19,7 +47,7 @@
     color: black;
 }
 #Background-Image {
-    background-image: url('http://thinkful-ed.github.io/karma-clone/img/first-background.jpg');
+    background-image: url('../images/first-background.jpg');
     background-position: center bottom;
     color: white;
     text-align: center;

@@ -1,7 +1,15 @@
-#Karma-Logo {
+#karmaLogo {
 	padding: 10px 0px 10px 150px;
 }
-#Navigation-Bar p {
+#navigationBar {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background-color: white;
+    border-bottom: 1px solid;
+    border-color: #777A74;
+}
+#navigationBar p {
     display: inline-block;
     padding-right: 30px;
 	font-family: 'Roboto', sans-serif;
@@ -10,23 +18,23 @@
     letter-spacing: 0.03em;
     transition: color 0.5s ease;
 }
-#Navigation-Bar .Centering > #Push-Over {
+#navigationBar .centering > #pushOver {
     margin-left: 300px;
     color: #4c5058;
     font-weight: 500;
 }
-#Navigation-Bar p:hover {
+#navigationBar p:hover {
     color: black;
 }
-#Background-Image {
-    background-image: url('http://thinkful-ed.github.io/karma-clone/img/first-background.jpg');
+#backgroundImage {
+    background-image: url('../images/first-background.jpg');
     background-position: center bottom;
     color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     padding-top: 10em;
 }
-#Learn-More {
+#learnMore {
     width: 9.688rem;
     padding: 1rem 1.5rem;
     margin-bottom: 15em;
@@ -36,7 +44,23 @@
     transition: background-color 0s ease;
     border-radius: 4px;
 }
-#Learn-More:hover{
+#learnMore:hover{
     background-color: #8C2800;
     border-color: #8C2800;
+}
+#threeImageSection {
+    font-family: 'Roboto', sans-serif;
+}
+#everybodyNeedsKarma {
+    font-size: 2.75rem;
+    padding: 3em 0em 0.7em 0em;
+    text-align: center;
+    font-weight: 500;
+}
+.three-images {
+    height: 127px;
+}
+.devices {
+    width: 33%;
+    display: inline-block;
 }

@@ -1,6 +1,11 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
 #karmaLogo {
     padding-left: 100px;
     padding-top: 10px;
+    text-align: none;
 }
 #navigationBar {
     position: fixed;
@@ -13,7 +18,6 @@
 #navigationBar p {
     display: inline-block;
     padding-right: 30px;
-	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
     color: #838994;
     letter-spacing: 0.03em;
@@ -31,8 +35,6 @@
     background-image: url('../images/first-background.jpg');
     background-position: center bottom;
     color: white;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
     padding-top: 10em;
 }
 #learnMore {
@@ -49,13 +51,9 @@
     background-color: #8C2800;
     border-color: #8C2800;
 }
-#threeImageSection {
-    font-family: 'Roboto', sans-serif;
-}
 #everybodyNeedsKarma {
     font-size: 2.75rem;
     padding: 3em 0em 0.7em 0em;
-    text-align: center;
     font-weight: 500;
 }
 .three-images {
@@ -64,27 +62,25 @@
 .devices {
     width: 33%;
     display: inline-block;
-    text-align: center;
 }
 #karmaFooter {
-    font-family: 'Roboto', sans-serif;
     border-top: 1px solid;
     border-color: #777A74;
 }
-#joinUsOn {
-    text-align: center;
+#socialIcons {
+    padding-left: 0px;
 }
 #socialIcons li {
-    text-align: center;
     display: inline-block;
     list-style: none;
+    border-radius: 1.25rem;
+    border: 1px solid #eaebec;
+    color: #55acee;
 }
 .icon {
     border: 1px solid #eaebec;
     border-radius: 1.25rem;
-    text-align: center;
 }
 #karmaMobility {
     color:#838994;
-    text-align: center;
 }

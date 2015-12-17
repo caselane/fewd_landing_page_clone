@@ -70,21 +70,19 @@
     font-family: 'Roboto', sans-serif;
     border-top: 1px solid;
     border-color: #777A74;
-}
-#joinUsOn {
     text-align: center;
+}
+#socialIcons {
+    padding-left: 0px;
 }
 #socialIcons li {
-    text-align: center;
     display: inline-block;
     list-style: none;
 }
 .icon {
     border: 1px solid #eaebec;
     border-radius: 1.25rem;
-    text-align: center;
 }
 #karmaMobility {
     color:#838994;
-    text-align: center;
 }
